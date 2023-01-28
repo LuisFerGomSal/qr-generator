@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulk QR generator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="downloadify/js/swfobject.js"></script>
+    <script src="downloadify/js/downloadify.min.js"></script>
+    <script type="text/javascript" src="functions.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="controls">
+        <label>Start</label>
+        <input id="num-1" type="number"></input>
+
+        <label>End</label>
+        <input id="num-2" type="number"></input>
+
+        <button id="qr-button">GENERATE QR</button>
+        <button id="clean-button">CLEAN</button>
+    </div>
+    
+    <div id="qr-cards"></div>
+</body>
+</html>
